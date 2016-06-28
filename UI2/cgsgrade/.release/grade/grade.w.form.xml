@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cM3iE3u" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cM3iE3u" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-output.cM3iE3u{padding-top: 0px} .x-col.cM3iE3u{border: 1px solid rgb(240, 240, 240)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cM3iE3u" class="cM3iE3u"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p23c546abf3a849d5a590c51b91099f83-iosstatusbar cM3iE3u" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cM3iE3u"> 
+    <div class="x-panel-top cM3iE3u" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cM3iE3u"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cM3iE3u" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;待评项目&quot;}" __cid="cM3iE3u"> 
+        <div class="x-titlebar-left cM3iE3u" __cid="cM3iE3u"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cM3iE3u" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cM3iE3u"> 
+            <i class="icon-chevron-left cM3iE3u" __cid="cM3iE3u"/>  
+            <span __cid="cM3iE3u" class="cM3iE3u"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cM3iE3u" __cid="cM3iE3u">待评项目</div>  
+        <div class="x-titlebar-right  cM3iE3u" __cid="cM3iE3u">
+          <div class="empty cM3iE3u" __cid="cM3iE3u"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cM3iE3u" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cM3iE3u">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cM3iE3u" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;gradeData&quot;}" __cid="cM3iE3u"> 
+        <ul class="x-list-template hide cM3iE3u" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cM3iE3u"> 
+          <li xid="li2" bind-click="li2Click" __cid="cM3iE3u" class="cM3iE3u"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cM3iE3u" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cM3iE3u"> 
+              <div class="x-col x-col-fixed clearfix cM3iE3u" xid="col1" style="width:85px;text-align:center;background-color:#808080;color:#FFFFFF;" __cid="cM3iE3u"> 
+                <label xid="label2" style="width:auto;" __cid="cM3iE3u" class="cM3iE3u">项目名称</label>
+              </div>  
+              <div class="x-col cM3iE3u" xid="col4" style="background-color:#C0C0C0;" __cid="cM3iE3u"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output  cM3iE3u" xid="output1" style="font-weight:bold;text-align:center;" data-bind="component:{ref:ref(&quot;PRO_NAME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cM3iE3u"/>
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cM3iE3u" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cM3iE3u"> 
+              <div class="x-col x-col-fixed clearfix cM3iE3u" xid="col3" style="width:85px;text-align:center;background-color:#808080;color:#FFFFFF;" __cid="cM3iE3u"> 
+                <label xid="label1" style="width:auto;" __cid="cM3iE3u" class="cM3iE3u">阶段名称</label>
+              </div>  
+              <div class="x-col cM3iE3u" xid="col2" style="background-color:#C0C0C0;" __cid="cM3iE3u"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output  cM3iE3u" xid="output2" style="font-weight:bold;text-align:center;" data-bind="component:{ref:ref(&quot;STAGE_NAME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cM3iE3u"/>
+              </div> 
+            </div>
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cM3iE3u" xid="row12" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cM3iE3u"> 
+              <div class="x-col x-col-fixed cM3iE3u" xid="col40" style="width:85px;text-align:center;background-color:#808080;color:#FFFFFF;" __cid="cM3iE3u"> 
+                <label xid="label19" __cid="cM3iE3u" class="cM3iE3u">起始时间</label>
+              </div>  
+              <div class="x-col cM3iE3u" xid="col39" style="background-color:#C0C0C0;" __cid="cM3iE3u"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output cM3iE3u" xid="output19" style="font-weight:bold;text-align:center;" data-bind="component:{ref:ref(&quot;PE_GRADE_START_TIME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cM3iE3u"/>
+              </div>  
+              <div class="x-col x-col-fixed cM3iE3u" xid="col33" style="width:85px;text-align:center;background-color:#808080;color:#FFFFFF;" __cid="cM3iE3u"> 
+                <label xid="label20" __cid="cM3iE3u" class="cM3iE3u">截止时间</label>
+              </div>  
+              <div class="x-col cM3iE3u" xid="col38" style="background-color:#C0C0C0;" __cid="cM3iE3u"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output cM3iE3u" xid="output20" style="font-weight:bold;text-align:center;" data-bind="component:{ref:ref(&quot;PE_GRADE_END_TIME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cM3iE3u"/>
+              </div> 
+            </div>
+          </li> 
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cM3iE3u" class="cM3iE3u">.x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23c546abf3a849d5a590c51b91099f83-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cM3iE3u" class="cM3iE3u"/>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/ExpertScore.w&quot;}" __cid="cM3iE3u" class="cM3iE3u">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cM3iE3u" __cid="cM3iE3u"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cM3iE3u" style="display:none;" __cid="cM3iE3u">
+      <xhtml:div class="x-dialog-title cM3iE3u" __cid="cM3iE3u">
+        <xhtml:button class="close cM3iE3u" __cid="cM3iE3u">
+          <xhtml:span __cid="cM3iE3u" class="cM3iE3u">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cM3iE3u" __cid="cM3iE3u"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cM3iE3u" __cid="cM3iE3u"/>
+    </xhtml:div>
+  </span>
+</div>

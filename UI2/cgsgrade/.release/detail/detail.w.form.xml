@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYzamme" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYzamme" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/menu/menu,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/popMenu/popMenu,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/button/buttonGroup,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cYzamme" class="cYzamme"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar cYzamme" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYzamme"> 
+    <div class="x-panel-top cYzamme" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYzamme">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYzamme" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;地调项目&quot;}" __cid="cYzamme"> 
+        <div class="x-titlebar-left cYzamme" xid="left1" __cid="cYzamme"/>  
+        <div class="x-titlebar-title cYzamme" xid="title1" __cid="cYzamme">地调项目</div>  
+        <div class="x-titlebar-right  cYzamme" xid="right1" __cid="cYzamme">
+          <div class="empty cYzamme" __cid="cYzamme"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYzamme" xid="menuBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:menuBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-add&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYzamme"> 
+            <i xid="i13" class="icon-android-add cYzamme" __cid="cYzamme"/>  
+            <span xid="span13" __cid="cYzamme" class="cYzamme"/>
+          </a>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cYzamme" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYzamme">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cYzamme" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cYzamme"> 
+        <div class="x-contents-content active cYzamme" xid="homeContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cYzamme"/>  
+        <div class="x-contents-content cYzamme" xid="projectContent" style="background-color:#C0C0C0;" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cYzamme"/>  
+        <div class="x-contents-content cYzamme" xid="scoreContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cYzamme">
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup2" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;评审项目&quot;}" __cid="cYzamme"> 
+              <i xid="i5" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span5" __cid="cYzamme" class="cYzamme">评审项目</span>
+            </a>
+          </div>
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+            <div class="x-col cYzamme" xid="col1" __cid="cYzamme"/>  
+            <div class="x-col cYzamme" xid="col2" __cid="cYzamme">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYzamme" xid="sweepBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:sweepBtnClick" data-config="{&quot;label&quot;:&quot;扫一扫&quot;}" __cid="cYzamme"> 
+                <i xid="i6" __cid="cYzamme" class="cYzamme"/>  
+                <span xid="span6" __cid="cYzamme" class="cYzamme">扫一扫</span>
+              </a>
+            </div>  
+            <div class="x-col cYzamme" xid="col3" __cid="cYzamme">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYzamme" xid="instructionBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:instructionBtnClick" data-config="{&quot;label&quot;:&quot;操作说明&quot;}" __cid="cYzamme"> 
+                <i xid="i7" __cid="cYzamme" class="cYzamme"/>  
+                <span xid="span7" __cid="cYzamme" class="cYzamme">操作说明</span>
+              </a>
+            </div>  
+            <div class="x-col cYzamme" xid="col5" __cid="cYzamme"/>
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup3" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="gradeBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:gradeBtnClick" data-config="{&quot;label&quot;:&quot;待评项目&quot;}" __cid="cYzamme"> 
+              <i xid="i9" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span9" __cid="cYzamme" class="cYzamme">待评项目</span>
+            </a> 
+          </div>
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup9" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="graded" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:gradedClick" data-config="{&quot;label&quot;:&quot;已评项目&quot;}" __cid="cYzamme"> 
+              <i xid="i19" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span19" __cid="cYzamme" class="cYzamme">已评项目</span>
+            </a> 
+          </div>
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup8" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="button7" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;个人动态&quot;}" __cid="cYzamme"> 
+              <i xid="i17" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span17" __cid="cYzamme" class="cYzamme">个人动态</span>
+            </a>
+          </div>
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup4" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;评分组员&quot;}" __cid="cYzamme"> 
+              <i xid="i10" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span10" __cid="cYzamme" class="cYzamme">评分组员</span>
+            </a>
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup5" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="button11" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;评分标准&quot;}" __cid="cYzamme"> 
+              <i xid="i11" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span11" __cid="cYzamme" class="cYzamme">评分标准</span>
+            </a>
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup6" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;分值精度&quot;}" __cid="cYzamme"> 
+              <i xid="i12" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span12" __cid="cYzamme" class="cYzamme">分值精度</span>
+            </a> 
+          </div> 
+        </div>  
+        <div class="x-contents-content cYzamme" xid="ownContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cYzamme">
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+            <div class="x-col x-col-fixed cYzamme" xid="col6" style="width:auto;" __cid="cYzamme">
+              <img src="" alt="" xid="image1" height="128px" style="width:128px;" __cid="cYzamme" class="cYzamme"/> 
+            </div>  
+            <div class="x-col cYzamme" xid="col7" __cid="cYzamme">
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+                <div class="x-col cYzamme" xid="col28" __cid="cYzamme"/>  
+                <div class="x-col cYzamme" xid="col29" __cid="cYzamme"/>  
+                <div class="x-col cYzamme" xid="col30" __cid="cYzamme"/>
+              </div>
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+                <div class="x-col cYzamme" xid="col22" __cid="cYzamme">
+                  <label xid="label6" __cid="cYzamme" class="cYzamme">姓　名：</label>
+                </div>  
+                <div class="x-col cYzamme" xid="col23" __cid="cYzamme">
+                  <label xid="label8" bind-text="$model.userData.val(&quot;SNAME&quot;)" __cid="cYzamme" class="cYzamme">label</label>
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row17" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+                <div class="x-col cYzamme" xid="col31" __cid="cYzamme"/>  
+                <div class="x-col cYzamme" xid="col32" __cid="cYzamme"/>  
+                <div class="x-col cYzamme" xid="col33" __cid="cYzamme"/>
+              </div>
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cYzamme" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cYzamme"> 
+                <div class="x-col cYzamme" xid="col25" __cid="cYzamme">
+                  <label xid="label7" __cid="cYzamme" class="cYzamme">用户名：</label>
+                </div>  
+                <div class="x-col cYzamme" xid="col26" __cid="cYzamme">
+                  <label xid="label9" bind-text="$model.userData.val(&quot;SCODE&quot;)" __cid="cYzamme" class="cYzamme">label</label>
+                </div> 
+              </div> 
+            </div>  
+            <div class="x-col x-col-fixed x-col-center cYzamme" xid="col8" style="width:auto;" __cid="cYzamme">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYzamme" xid="personInfoBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:personInfoBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYzamme"> 
+                <i xid="i15" class="icon-chevron-right cYzamme" __cid="cYzamme"/>  
+                <span xid="span15" __cid="cYzamme" class="cYzamme"/>
+              </a>
+            </div>
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup7" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="personalBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:personalBtnClick" data-config="{&quot;label&quot;:&quot;个人帐号&quot;}" __cid="cYzamme"> 
+              <i xid="i20" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span20" __cid="cYzamme" class="cYzamme">个人帐号</span>
+            </a> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup10" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="IdentityInfoBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:IdentityInfoBtnClick" data-config="{&quot;label&quot;:&quot;身份信息&quot;}" __cid="cYzamme"> 
+              <i xid="i23" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span23" __cid="cYzamme" class="cYzamme">身份信息</span>
+            </a> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup11" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:false}" __cid="cYzamme"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cYzamme" xid="credentialsBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:credentialsBtnClick" data-config="{&quot;label&quot;:&quot;认证信息&quot;}" __cid="cYzamme"> 
+              <i xid="i24" __cid="cYzamme" class="cYzamme"/>  
+              <span xid="span24" __cid="cYzamme" class="cYzamme">认证信息</span>
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cYzamme" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYzamme">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cYzamme" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;selected&quot;:&quot;button1&quot;,&quot;tabbed&quot;:true}" __cid="cYzamme">
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cYzamme" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首页&quot;,&quot;target&quot;:&quot;homeContent&quot;}" __cid="cYzamme"> 
+          <i xid="i1" class="icon-home cYzamme" __cid="cYzamme"/>  
+          <span xid="span1" __cid="cYzamme" class="cYzamme">首页</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cYzamme" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-storage&quot;,&quot;label&quot;:&quot;项目&quot;,&quot;target&quot;:&quot;projectContent&quot;}" __cid="cYzamme"> 
+          <i xid="i2" class="icon-android-storage cYzamme" __cid="cYzamme"/>  
+          <span xid="span2" __cid="cYzamme" class="cYzamme">项目</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cYzamme" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-edit&quot;,&quot;label&quot;:&quot;评分&quot;,&quot;target&quot;:&quot;scoreContent&quot;}" __cid="cYzamme"> 
+          <i xid="i3" class="icon-edit cYzamme" __cid="cYzamme"/>  
+          <span xid="span3" __cid="cYzamme" class="cYzamme">评分</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cYzamme" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-person&quot;,&quot;label&quot;:&quot;我的&quot;,&quot;target&quot;:&quot;ownContent&quot;}" __cid="cYzamme"> 
+          <i xid="i4" class="icon-ios7-person cYzamme" __cid="cYzamme"/>  
+          <span xid="span4" __cid="cYzamme" class="cYzamme">我的</span>
+        </a>
+      </div> 
+    </div>
+    <style __cid="cYzamme" class="cYzamme">.x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p772cfd810a1f4bbda0c8dd2f4226d031-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <div component="$model/UI2/system/components/justep/popMenu/popMenu" class="x-popMenu cYzamme" xid="popMenu1" data-bind="component:{name:'$model/UI2/system/components/justep/popMenu/popMenu'}" data-config="{&quot;anchor&quot;:&quot;menuBtn&quot;}" __cid="cYzamme"> 
+    <div class="x-popMenu-overlay cYzamme" xid="div1" __cid="cYzamme"/>  
+    <ul component="$model/UI2/system/components/justep/menu/menu" class="x-menu dropdown-menu x-popMenu-content cYzamme" xid="menu1" data-bind="component:{name:'$model/UI2/system/components/justep/menu/menu'}" __cid="cYzamme">
+      <li class="x-menu-item cYzamme" xid="item1" __cid="cYzamme"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYzamme" xid="menuSweepBtn" bind-click="sweepBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;扫一扫&quot;}" __cid="cYzamme"> 
+          <i xid="i8" __cid="cYzamme" class="cYzamme"/>  
+          <span xid="span8" __cid="cYzamme" class="cYzamme">扫一扫</span>
+        </a> 
+      </li>  
+      <li class="x-menu-item cYzamme" xid="item2" __cid="cYzamme"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYzamme" xid="button8" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:instructionBtnClick" data-config="{&quot;label&quot;:&quot;操作说明&quot;}" __cid="cYzamme"> 
+          <i xid="i14" __cid="cYzamme" class="cYzamme"/>  
+          <span xid="span14" __cid="cYzamme" class="cYzamme">操作说明</span>
+        </a> 
+      </li>
+    </ul>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:8px;left:38px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/ExpertScore.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" style="top:12px;left:221px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/instruction.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="PersonlnfoDialog" style="top:9px;left:160px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/Personlnfo.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="IdentityInfoDialog" style="top:10px;left:48px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/IdentityInfo.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="personalDialog" style="top:10px;left:59px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/personal.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="credentialsDialog" style="top:13px;left:63px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/Credentials.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="gradeDialog" style="top:10px;left:82px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/grade.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="gradedDialog" style="top:12px;left:106px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/cgsgrade/graded.w&quot;}" __cid="cYzamme" class="cYzamme">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYzamme" __cid="cYzamme"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYzamme" style="display:none;" __cid="cYzamme">
+      <xhtml:div class="x-dialog-title cYzamme" __cid="cYzamme">
+        <xhtml:button class="close cYzamme" __cid="cYzamme">
+          <xhtml:span __cid="cYzamme" class="cYzamme">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYzamme" __cid="cYzamme"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYzamme" __cid="cYzamme"/>
+    </xhtml:div>
+  </span>
+</div>
