@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<antlib> 
+  <taskdef name="upload" classname="com.justep.tools.ant.task.app.UploadTask"/>  
+  <taskdef name="pack" classname="com.justep.tools.ant.task.app.PackTask"/>  
+  <taskdef name="PackState" classname="com.justep.tools.ant.task.app.PackStateTask"/>
+  <taskdef name="download" classname="com.justep.tools.ant.task.app.DownloadTask"/>  
+ 
+  <taskdef name="LoginPaaS" classname="com.justep.tools.ant.task.paas.LoginPaaSTask"/>
+  <taskdef name="PaaSState" classname="com.justep.tools.ant.task.paas.PaaSStateTask"/>
+  <taskdef name="UpgradePaaSService" classname="com.justep.tools.ant.task.paas.UpgradePaaSServiceTask"/>
+  <taskdef name="FinishPaaSUpgrade" classname="com.justep.tools.ant.task.paas.FinishPaaSUpgradeTask"/>
+  <taskdef name="UploadToPaaS" classname="com.justep.tools.ant.task.paas.UploadToPaaSTask"/> 
+  <taskdef name="RestartPaaSService" classname="com.justep.tools.ant.task.paas.RestartPaaSServiceTask"/>
+  <taskdef name="PaaSServiceLog" classname="com.justep.tools.ant.task.paas.PaaSServiceLogTask"/>
+</antlib>

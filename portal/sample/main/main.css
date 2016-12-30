@@ -1,0 +1,77 @@
+
+.grid9 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.grid9 .cell {
+  padding: 0;
+}/*
+.grid9 .cell .card {
+  width: 60px;
+  margin: 10px auto;
+  text-align: center;
+  border: 0px solid #888;
+  border-radius: 6px;
+  padding: 5px;
+}
+*/
+
+.grid9 .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.grid9 .cell {
+  padding: 0;
+  overflow: hidden;
+  text-align:center;
+  padding:10px;
+}
+
+.grid9>.cell>.card>.btn>i {
+  font-size: 30px;
+  display:block;
+  padding-bottom:7px;
+}
+
+.grid9>.cell>.card>.btn>span{
+	color:#888;
+	font-size:10px;
+}
+
+.grid9 .cell .card .title {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+}
+.grid9 .cell .card .btn {
+	padding: 0;
+}
+
+
+.portal-main .x-contents>.x-contents-content {
+	overflow: hidden;
+}
+
+.grid9 .btn{
+	width: 100%;
+}
+
+.x-portal .x-contents[xid=carousel]{
+	height:288px;		
+}
+
+.iosstatusbar .x-portal .x-contents[xid=carousel]{
+	height:308px;		
+}
+
+
+.x-portal >.x-panel-top{
+	z-index:100;
+}
+.x-portal >.x-panel-top > .x-titlebar{
+	background-color:transparent;
+	color: white;
+}
+
